@@ -1,7 +1,6 @@
 // Karl Mathia
 // 2021-03-27
-// Blink example using the STM32Cube framework, which includes the HAL library:
-//   https://docs.platformio.org/en/latest/tutorials/ststm32/stm32cube_debugging_unit_testing.html
+// Blink example using the STM32Cube framework, which includes the HAL library
 
 #include "main.h"
 
@@ -34,40 +33,38 @@ void SysTick_Handler(void)
   HAL_IncTick();
 }
 
-void NMI_Handler(void)
-{
-}
+// void NMI_Handler(void)
+// {
+// }
 
-void HardFault_Handler(void)
-{
-  while (1) {}
-}
+// void HardFault_Handler(void)
+// {
+//   while (1) {}
+// }
 
+// void MemManage_Handler(void)
+// {
+//   while (1) {}
+// }
 
-void MemManage_Handler(void)
-{
-  while (1) {}
-}
+// void BusFault_Handler(void)
+// {
+//   while (1) {}
+// }
 
-void BusFault_Handler(void)
-{
-  while (1) {}
-}
+// void UsageFault_Handler(void)
+// {
+//   while (1) {}
+// }
 
-void UsageFault_Handler(void)
-{
-  while (1) {}
-}
+// void SVC_Handler(void)
+// {
+// }
 
-void SVC_Handler(void)
-{
-}
+// void DebugMon_Handler(void)
+// {
+// }
 
-
-void DebugMon_Handler(void)
-{
-}
-
-void PendSV_Handler(void)
-{
-}
+// void PendSV_Handler(void)
+// {
+// }
