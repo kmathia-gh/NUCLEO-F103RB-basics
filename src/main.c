@@ -14,7 +14,7 @@ int main(void)
   while (1)
   {
     HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
-    HAL_Delay(2000);
+    HAL_Delay(500); // Time measurements show: time period is not 500 ms, but 1000 ms. To be investigated.
   }
 }
 
